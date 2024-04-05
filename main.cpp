@@ -1,5 +1,6 @@
 #include "mat4.h"
 #include "mathhelp.h"
+#include "transform.h"
 #include "quat.h"
 #include "vec2.h"
 #include "vec3.h"

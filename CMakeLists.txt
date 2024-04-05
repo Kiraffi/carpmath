@@ -3,7 +3,7 @@ project(carpmath)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_library(carpmath
+add_library(carpmath OBJECT
         mat4.h
         mat4.cpp
         quat.h
