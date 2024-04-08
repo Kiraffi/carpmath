@@ -18,3 +18,5 @@ add_library(carpmath OBJECT
 
 add_executable(carpmathexec main.cpp)
 target_link_libraries(carpmathexec PRIVATE carpmath)
+
+target_include_directories(carpmath PUBLIC "./")

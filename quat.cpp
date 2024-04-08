@@ -1,5 +1,3 @@
-#pragma once
-
 #include "quat.h"
 #include "mathhelp.h"
 
