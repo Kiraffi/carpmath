@@ -2,6 +2,7 @@
 
 #include "quat.h"
 #include "uninittype.h"
+#include "transform.h"
 #include "vec3.h"
 #include "vec4.h"
 
@@ -99,6 +100,7 @@ struct alignas(16) Mat3x4
     float _23;
 };
 
+Mat3x4 getMat4FromTransform(const Transform& transform);
 Mat3x4 getMat4FromQuaternion(const Quat &quat);
 Mat3x4 getMat4FromScale(const Vec3 &scale);
 Mat3x4 getMat4FromTranslation(const Vec3 &pos);

@@ -288,7 +288,7 @@ Mat3x4 getMatrixFromTranslation(const Vec3 &pos)
 
 
 
-Mat3x4 getMatrixFromTransform(const Transform &trans)
+Mat3x4 getMat4FromTransform(const Transform &trans)
 {
     Mat3x4 result{ UninitType{} };
     float xy2 = 2.0f * trans.rot.vx * trans.rot.vy;
